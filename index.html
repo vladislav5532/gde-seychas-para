@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Где сейчас пара</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="app-header">
+        <h1>Где сейчас пара?</h1>
+        <nav class="floor-switcher">
+            <button>1 этаж</button>
+            <button>2 этаж</button>
+            <button>3 этаж</button>
+        </nav>
+    </header>
+    <main>
+        <aside class="controls">
+            <label><input type="checkbox">Только свободные</label>
+            <input type="text" placeholder="Поиск аудитории...">
+        </aside>
+
+        <section class="map-wrapper">
+  <svg id="floor-plan" viewBox="0 0 800 600">
+    <rect x="0" y="0" width="800" height="600" fill="#fafafa"/>
+    <circle cx="85" cy="85" r="8" fill="#22c55e"/>
+    <circle cx="185" cy="85" r="8" fill="#22c55e"/>
+    <circle cx="285" cy="85" r="8" fill="#ef4444"/>
+    <circle cx="385" cy="85" r="8" fill="#22c55e"/>
+  </svg>
+</section>
+    </main>
+
+
+    <footer>
+        <p>Проект студента...</p>
+    </footer>
+
+    
+</body>
+</html>
